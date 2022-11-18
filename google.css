@@ -49,13 +49,24 @@ section .main .searchBox .icons {
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* padding: 12px 40px; */
     padding-left: 15px;
     padding-top: 12px;
     align-items: center;
     pointer-events: none;
     vertical-align: middle;
+}
+.icon1{
+    position: absolute;
+    left: 17px;
+    top: 17px; 
+}
+
+.icon2{
+    position: absolute;
+    left: 670px;
+    top: 10px;
 }
 
 section .main .searchBox .icons img {
@@ -69,10 +80,10 @@ section .main .searchBox .icons img {
     font-size: 14px;
     border: none;
     cursor: pointer;
+    border: 1px solid #f8f9fa;
     border-radius: 4px;
-    border: 1px solid transparent;
     outline: none;
-    /* transition: transform 0.7s;  Animation */
+    /* transition: transform 0.7s;    */
     text-align: center;
     display: inline-block;
 }
